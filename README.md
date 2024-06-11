@@ -69,6 +69,7 @@ This is a simple food ordering website built with Django. The application allows
 3. **Submit** the order.
 
 ## Project Structure
+```
 food-ordering-website/
 │
 ├── FoodOrderingProject/
@@ -93,7 +94,7 @@ food-ordering-website/
 │
 ├── manage.py
 └── requirements.txt
-
+```
 
 ## Dependencies
 
