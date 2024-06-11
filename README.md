@@ -69,4 +69,39 @@ This is a simple food ordering website built with Django. The application allows
 3. **Submit** the order.
 
 ## Project Structure
+food-ordering-website/
+│
+├── FoodOrderingProject/
+│ ├── init.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── wsgi.py
+│ └── asgi.py
+│
+├── foodorder/
+│ ├── migrations/
+│ ├── templates/
+│ │ ├── order_food.html
+│ │ └── order_success.html
+│ ├── init.py
+│ ├── admin.py
+│ ├── apps.py
+│ ├── forms.py
+│ ├── models.py
+│ ├── tests.py
+│ └── views.py
+│
+├── manage.py
+└── requirements.txt
+
+
+## Dependencies
+
+- Django
+- Openpyxl
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
